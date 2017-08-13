@@ -1,0 +1,51 @@
+Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal.
+
+$ nano Ola_mundo.txt -> "Ola mundo crel!
+$ cat Ola_mundo.txt
+
+Apresente o nome de todos os arquivos e pastas na pasta 'root'.
+
+$ cd /
+$ ls -la
+
+Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
+
+$ ls -l
+
+Apresente somente as pastas dentro da pasta 'root'.
+
+$ ls
+
+Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+
+
+Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
+
+Liste somente os arquivos com extensão .txt.
+
+$ ls *.txt
+
+Liste somente os arquivos com extensão .png.
+
+$ ls *.png
+
+Liste somente os arquivos com extensão .jpg.
+
+$ ls *.jpg
+
+Liste somente os arquivos com extensão .gif.
+
+$ ls *.gif
+
+Liste somente os arquivos que contenham o nome 'cal'.
+
+$ ls *cal*
+
+Liste somente os arquivos que contenham o nome 'tux'.
+
+$ ls *tux*
+
+Liste somente os arquivos que comecem com o nome 'tux'.
+
+$ ls tux*
+
